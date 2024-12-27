@@ -1,0 +1,72 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .navbar button {
+    background:  #f9eae1;
+    font-size: 16px;
+    color: #624323;
+    border: 3px solid rgb(77, 54, 13);
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .navbar button:hover {
+    background: #e29671;
+  }
+  
+  .navbar .active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #000000;
+  }
+  
+  .navbar li {
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .navbar-icon {
+    width: 30px;
+    height: px;
+    cursor: pointer;
+  }
+  
+  .navbar-search-icon {
+    position: relative;
+  }
+  
+  .logo {
+    width: 100px; 
+    height: auto; 
+  }
+  
+  .logo-text {
+    font-size: 1.5rem; 
+    color: #624323; 
+    font-weight: bold; 
+    font-family: 'Georgia', serif; 
+    margin-top: 5px;
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    -webkit-text-stroke: 1px #463f3f; 
+    text-shadow: 1px 1px 2px rgba(97, 50, 50, 0.2); 
+  }
+  
+  
