@@ -1,0 +1,202 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+  
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.background-cart {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    background-attachment: fixed;
+    opacity: 0.55;
+}
+
+.cart-table-header,
+.cart-table-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr; 
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(249, 245, 242, 0.8);
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.cart-table-header {
+    font-weight: bold;
+    background-color: rgba(232, 215, 197, 0.8);
+    color: #333;
+}
+
+.cart-table-row:hover {
+    transform: scale(1.02); /* Zoom effect */
+    background-color: rgba(240, 225, 210, 0.8); /* Highlight effect */
+}
+
+.cart-table-header span,
+.cart-table-row span {
+    text-align: center;
+}
+
+.cart-table-header span {
+    padding: 5px;
+}
+
+.cart-table-row span {
+    color: #444;
+    font-size: 1rem;
+}
+
+.item-details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart-item-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.remove-button {
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.remove-button:hover {
+    background-color: #d35400;
+}
+
+.remove-button.remove-all {
+    background-color: #e74c3c;
+}
+
+.remove-button.remove-all:hover {
+    background-color: #c0392b;
+}
+
+.cart-total {
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 0;
+    margin-right: 20px;
+    flex-grow: 1;
+}
+
+.cart-total h3 {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.cart-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-header {
+    text-align: center;
+    color: #6f4c3e;
+    margin-bottom: 20px;
+}
+
+.cart-table {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.clear-button {
+    background-color: #6f4f37; 
+    color: white;
+    border: none;
+    padding: 12px 20px; 
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    text-align: center;
+    width: auto; 
+    margin: 20px auto 0;  
+}
+
+.clear-button:hover {
+    background-color: #5e3e2b; 
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+}
+
+.clear-button:focus {
+    outline: none; 
+    box-shadow: 0 0 0 3px rgba(111, 79, 55, 0.5); 
+}
+
+.clear-button:active {
+    background-color: #4b3621; 
+    transform: translateY(0); 
+}
+
+.clear-button-container {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.place-order-button {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.place-order-button {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+    padding: 15px 35px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+
+.empty-cart {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #1f1511;
+    margin-top: 20px;
+}
