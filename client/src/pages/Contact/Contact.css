@@ -1,0 +1,98 @@
+.background-contact {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    background-attachment: fixed;
+  }
+  
+  .contact-us {
+    font-family: "Arial", sans-serif;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: rgba(249, 249, 249, 0.8);
+  }
+  
+  .contact-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-header h1 {
+    font-size: 2.5rem;
+    color: #6F4E37; 
+  }
+  
+  .contact-header p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center; 
+    text-align: center; 
+  }
+  
+  .contact-details,
+  .social-media,
+  .operating-hours {
+    flex: 1;
+    min-width: 250px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.3)
+  }
+  
+  .contact-details h2,
+  .social-media h2,
+  .operating-hours h2 {
+    margin-bottom: 15px;
+    color: #6F4E37;
+  }
+  
+  .contact-icon {
+    margin-right: 10px;
+    color: #6F4E37;
+    width: 24px; 
+    height: 24px; 
+  }
+  
+  .contact-details a {
+    color: #6F4E37;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 2rem;
+    justify-content: center;
+  }
+  
+  .social-icons a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+  }
+  
+  .social-icons a:hover img {
+    transform: scale(1.1);
+  }
+  
+  .operating-hours p {
+    margin: 5px 0;
+  }
+  
