@@ -14,12 +14,19 @@ import Footer from "./components/Footer/Footer";
 function App() {
 
   const [showLogin, setShowLogin] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+
+  const handleLogout = () => {
+    setIsAuthenticated(false);
+    localStorage.removeItem("token");
+  };
 
   return (
     <>
     {showLogin?<Login setShowLogin={setShowLogin}/>:<></>}
     <div className="App">
-      <Navbar setShowLogin={setShowLogin} />
+      <Navbar setShowLogin={setShowLogin} isAuthenticated={isAuthenticated} handleLogout={handleLogout} />
+      {showLogin && <Login setShowLogin={setShowLogin} setIsAuthenticated={setIsAuthenticated} />}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />

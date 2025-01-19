@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { NavLink, useNavigate, useLocation, Link } from 'react-router-dom';
 import './Navbar.css';
 import { assets } from '../../assets/assets';
+// import useCart from '../../hooks/useCart';
 
-
-const Navbar = ({setShowLogin}) => {
+const Navbar = ({setShowLogin, isAuthenticated, handleLogout}) => {
   const [menu, setMenu] = useState("home");
   const navigate = useNavigate();
   const location = useLocation();
-
+  // const { cartItems } = useCart();
 
   useEffect(() => {
     const path = location.pathname;
@@ -36,7 +36,7 @@ const Navbar = ({setShowLogin}) => {
         <div className="logo-text">Steamy Sips</div>
       </div>
       <ul className="navbar-menu">
-      <li className={menu === "home" ? "active" : ""}>
+        <li className={menu === "home" ? "active" : ""}>
           <NavLink to="/">Home</NavLink>
         </li>
         <li className={menu === "menu" ? "active" : ""}>
@@ -54,7 +54,12 @@ const Navbar = ({setShowLogin}) => {
         <div className="navbar-search-icon">
           <img src={assets.basket_icon} className={`navbar-icon basket-icon ${menu === "cart" ? "active" : ""}`} alt="Basket" onClick={handleBasketClick} />
         </div>
-        <button onClick={()=>setShowLogin(true)}>Sign In</button>
+        {/* <button onClick={()=>setShowLogin(true)}>Sign In</button> */}
+        {isAuthenticated ? (
+          <button onClick={handleLogout}>Log Out</button>
+        ) : (
+          <button onClick={() => setShowLogin(true)}>Sign In</button>
+        )}
       </div>
     </div>
   );

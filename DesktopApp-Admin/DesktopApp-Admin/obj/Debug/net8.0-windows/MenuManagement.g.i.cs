@@ -84,7 +84,7 @@ namespace CoffeeShop {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DesktopApp-Admin;component/menumanagement.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DesktopApp-Admin;V1.0.0.0;component/menumanagement.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\MenuManagement.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
