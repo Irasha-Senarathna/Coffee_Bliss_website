@@ -1,7 +1,12 @@
 ﻿<Window x:Class="CoffeeShop.CustomerManagementPage"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Manage Customers" Height="800" Width="1200">
+        Title="Manage Customers" Height="800" Width="1200"
+        WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    
+    <Window.Background>
+        <ImageBrush ImageSource="/Assests/vanilla_cappuccino.jpg"/>
+    </Window.Background>
 
     <Grid Margin="20">
         <!-- Row Definitions -->
@@ -19,12 +24,13 @@
 
         <!-- Navigation Panel -->
         <Grid Width="220" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,20,0,0" Grid.Row="1">
-            <StackPanel Background="#3E2723B3" VerticalAlignment="Top" Margin="10">
+            <StackPanel Background="#3E2723" VerticalAlignment="Top" Margin="10">
+                <TextBlock Text="☕ Coffee_Bliss" Foreground="White" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" Margin="10"/>
                 <Button Content="Dashboard" HorizontalAlignment="Stretch" Height="50" Click="NavigateToDashboard" Margin="5" Background="#3E2723" Foreground="White" FontSize="16"/>
                 <Button Content="Manage Menu" HorizontalAlignment="Stretch" Height="61" Click="NavigateToMenuManagement" Margin="5,-4,5,5" Background="#3E2723" Foreground="White" FontSize="16"/>
                 <Button Content="Manage Orders" HorizontalAlignment="Stretch" Height="50" Click="NavigateToOrderManagement" Margin="5" Background="#3E2723" Foreground="White" FontSize="16"/>
                 <Button Content="Manage Customers" HorizontalAlignment="Stretch" Height="50" Click="NavigateToCustomerManagement" Margin="5" Background="#3E2723" Foreground="White" FontSize="16"/>
-                <Button Content="Logout" HorizontalAlignment="Stretch" Height="50" Click="Logout" Margin="5" Background="#3E2723" Foreground="White" FontSize="16"/>
+                <Button Content="Logout" HorizontalAlignment="Stretch" Height="50" Click="Logout" Margin="5" Background="#D32F2F" Foreground="White" FontSize="16"/>
             </StackPanel>
         </Grid>
 

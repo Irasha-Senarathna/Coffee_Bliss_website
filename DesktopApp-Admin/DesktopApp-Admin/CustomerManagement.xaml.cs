@@ -6,9 +6,9 @@ using System.Windows.Controls.Primitives;
 
 public class Customer
 {
-    public string Name { get; set; }
-    public string Email { get; set; }
-    public string ContactNumber { get; set; }
+    public string? Name { get; set; }
+    public string? Email { get; set; }
+    public string? ContactNumber { get; set; }
 }
 
 namespace CoffeeShop

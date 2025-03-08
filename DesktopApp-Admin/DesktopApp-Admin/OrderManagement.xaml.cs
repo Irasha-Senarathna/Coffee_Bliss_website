@@ -17,11 +17,12 @@ namespace CoffeeShop
         // Sample Order Class
         public class Order
         {
-            public string OrderID { get; set; }
-            public string CustomerName { get; set; }
-            public string Items { get; set; }
-            public decimal TotalPrice { get; set; }
-            public string Status { get; set; }
+            public string? OrderID { get; set; }
+            public string? CustomerName { get; set; }
+            public string? Items { get; set; }
+            public decimal? TotalPrice { get; set; }
+           
+            public string? Status { get; set; }
         }
 
         // Mock Data: Load Orders into the ListView
@@ -41,7 +42,7 @@ namespace CoffeeShop
         private void UpdateOrderStatus(object sender, RoutedEventArgs e)
         {
             string orderId = OrderIDInput.Text;
-            string selectedStatus = (OrderStatusComboBox.SelectedItem as ComboBoxItem)?.Content?.ToString();
+            string selectedStatus = (OrderStatusComboBox.SelectedItem as ComboBoxItem)?.Content?.ToString() ?? "Default Status";
 
             if (string.IsNullOrWhiteSpace(orderId) || string.IsNullOrWhiteSpace(selectedStatus))
             {

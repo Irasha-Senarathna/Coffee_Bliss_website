@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows;
+using MySql.Data.MySqlClient;
 
 namespace CoffeeShop
 {
@@ -7,17 +8,9 @@ namespace CoffeeShop
     {
         public Login()
         {
-            try
-            {
-                InitializeComponent();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Error");
-            }
+            InitializeComponent();
         }
 
-        // Event handler for the Login button click
         private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
             string username = UsernameInput.Text.Trim();
@@ -29,40 +22,63 @@ namespace CoffeeShop
                 return;
             }
 
-            // Example login validation (replace with your authentication logic)
-            if (username == "admin" && password == "password")
+            string connectionString = "Server=localhost;Database=admin_db;Uid=root;Pwd=Isenarathne@2001";
+
+            try
             {
-                ErrorMessage.Text = string.Empty;
+                using (MySqlConnection connection = new MySqlConnection(connectionString))
+                {
+                    connection.Open();
 
-                // Navigate to MainWindow
-                MainWindow mainWindow = new MainWindow();
-                mainWindow.Show();
+                    string query = "SELECT COUNT(*) FROM admin WHERE username = @Username AND password = @Password";
+                    using (MySqlCommand cmd = new MySqlCommand(query, connection))
+                    {
+                        cmd.Parameters.AddWithValue("@Username", username);
+                        cmd.Parameters.AddWithValue("@Password", password);
 
-                // Close the Login window
-                this.Close();
+                        int count = Convert.ToInt32(cmd.ExecuteScalar());
+
+                        if (count == 1)
+                        {
+                            // Login successful
+                            MessageBox.Show("Login successful!");
+                            MainWindow mainWindow = new MainWindow();
+                            mainWindow.Show();
+                            this.Close();
+                        }
+                        else
+                        {
+                            // Invalid credentials
+                            ErrorMessage.Text = "Invalid Username or Password.";
+                        }
+                    }
+                }
             }
-            else
+            catch (Exception ex)
             {
-                ErrorMessage.Text = "Invalid Username or Password.";
+                MessageBox.Show("Database error: " + ex.Message);
             }
         }
 
-        // Event handler for "Show Password" checkbox checked
         private void ShowPassword_Checked(object sender, RoutedEventArgs e)
         {
-            // Display the password as plain text in the TextBox
             VisiblePasswordInput.Text = PasswordInput.Password;
             VisiblePasswordInput.Visibility = Visibility.Visible;
             PasswordInput.Visibility = Visibility.Collapsed;
         }
 
-        // Event handler for "Show Password" checkbox unchecked
         private void ShowPassword_Unchecked(object sender, RoutedEventArgs e)
         {
-            // Hide the plain text password and revert to the PasswordBox
             PasswordInput.Password = VisiblePasswordInput.Text;
             VisiblePasswordInput.Visibility = Visibility.Collapsed;
             PasswordInput.Visibility = Visibility.Visible;
+        }
+
+        private void SignUpButton_Click(object sender, RoutedEventArgs e)
+        {
+            SignUp signUpWindow = new SignUp();
+            signUpWindow.Show();
+            this.Close();  // Optional: Close login window
         }
     }
 }

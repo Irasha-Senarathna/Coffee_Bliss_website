@@ -14,7 +14,13 @@
     <None Remove="Assests\background-cart.png" />
     <None Remove="Assests\background-contact.jpg" />
     <None Remove="Assests\background-home.jpg" />
+    <None Remove="Assests\coffee-beans.jpg" />
+    <None Remove="Assests\hazelnut_mocha.jpg" />
     <None Remove="Assests\vanilla_cappuccino.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="9.2.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,6 +28,8 @@
     <Resource Include="Assests\background-cart.png" />
     <Resource Include="Assests\background-contact.jpg" />
     <Resource Include="Assests\background-home.jpg" />
+    <Resource Include="Assests\coffee-beans.jpg" />
+    <Resource Include="Assests\hazelnut_mocha.jpg" />
     <Resource Include="Assests\vanilla_cappuccino.jpg" />
   </ItemGroup>
 
