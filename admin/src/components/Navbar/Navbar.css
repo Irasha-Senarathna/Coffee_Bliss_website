@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white; /* Add a background color to avoid content showing through */
+    z-index: 1000; /* Ensure the navbar stays on top of other content */
+}
+  
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.navbar-welcome {
+    font-size: 18px;
+    color: #bdc3c7;
+}
+  
+.logo {
+    width: 100px; 
+    height: auto; 
+}
+  
+.logo-text {
+    font-size: 1.5rem; 
+    color: #624323; 
+    font-weight: bold; 
+    font-family: 'Georgia', serif; 
+    margin-top: 5px;
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    -webkit-text-stroke: 1px #463f3f; 
+    text-shadow: 1px 1px 2px rgba(97, 50, 50, 0.2); 
+}
+  
+  
