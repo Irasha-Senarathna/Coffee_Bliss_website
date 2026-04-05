@@ -79,7 +79,7 @@
     transition: background 0.3s, transform 0.2s;
 }
   
-.login-button:hover {
+.login-button:hover {                
     background: linear-gradient(to right, #0056b3, #004494);
     transform: translateY(-2px);
 }

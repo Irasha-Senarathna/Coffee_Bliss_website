@@ -11,7 +11,7 @@ CREATE TABLE user (
   email VARCHAR(100) NOT NULL UNIQUE,
   PRIMARY KEY (user_id)
 );
-
+admin
 -- Item Table
 DROP TABLE IF EXISTS item;
 CREATE TABLE item (

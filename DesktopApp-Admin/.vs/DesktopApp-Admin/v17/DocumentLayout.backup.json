@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\GUI Projects\\Coffee_Bliss_website\\DesktopApp-Admin\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F9689E18-C8F3-4D81-81CD-484788DB22EC}|DesktopApp-Admin\\DesktopApp-Admin.csproj|d:\\gui projects\\coffee_bliss_website\\desktopapp-admin\\desktopapp-admin\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9689E18-C8F3-4D81-81CD-484788DB22EC}|DesktopApp-Admin\\DesktopApp-Admin.csproj|solutionrelative:desktopapp-admin\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9689E18-C8F3-4D81-81CD-484788DB22EC}|DesktopApp-Admin\\DesktopApp-Admin.csproj|d:\\gui projects\\coffee_bliss_website\\desktopapp-admin\\desktopapp-admin\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F9689E18-C8F3-4D81-81CD-484788DB22EC}|DesktopApp-Admin\\DesktopApp-Admin.csproj|solutionrelative:desktopapp-admin\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F9689E18-C8F3-4D81-81CD-484788DB22EC}|DesktopApp-Admin\\DesktopApp-Admin.csproj|d:\\gui projects\\coffee_bliss_website\\desktopapp-admin\\desktopapp-admin\\signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F9689E18-C8F3-4D81-81CD-484788DB22EC}|DesktopApp-Admin\\DesktopApp-Admin.csproj|solutionrelative:desktopapp-admin\\signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -23,20 +31,12 @@
       "RelativeMoniker": "D:0:0:{F9689E18-C8F3-4D81-81CD-484788DB22EC}|DesktopApp-Admin\\DesktopApp-Admin.csproj|solutionrelative:desktopapp-admin\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9689E18-C8F3-4D81-81CD-484788DB22EC}|DesktopApp-Admin\\DesktopApp-Admin.csproj|d:\\gui projects\\coffee_bliss_website\\desktopapp-admin\\desktopapp-admin\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F9689E18-C8F3-4D81-81CD-484788DB22EC}|DesktopApp-Admin\\DesktopApp-Admin.csproj|solutionrelative:desktopapp-admin\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F9689E18-C8F3-4D81-81CD-484788DB22EC}|DesktopApp-Admin\\DesktopApp-Admin.csproj|d:\\gui projects\\coffee_bliss_website\\desktopapp-admin\\desktopapp-admin\\customermanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F9689E18-C8F3-4D81-81CD-484788DB22EC}|DesktopApp-Admin\\DesktopApp-Admin.csproj|solutionrelative:desktopapp-admin\\customermanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9689E18-C8F3-4D81-81CD-484788DB22EC}|DesktopApp-Admin\\DesktopApp-Admin.csproj|d:\\gui projects\\coffee_bliss_website\\desktopapp-admin\\desktopapp-admin\\customermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9689E18-C8F3-4D81-81CD-484788DB22EC}|DesktopApp-Admin\\DesktopApp-Admin.csproj|solutionrelative:desktopapp-admin\\customermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9689E18-C8F3-4D81-81CD-484788DB22EC}|DesktopApp-Admin\\DesktopApp-Admin.csproj|d:\\gui projects\\coffee_bliss_website\\desktopapp-admin\\desktopapp-admin\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9689E18-C8F3-4D81-81CD-484788DB22EC}|DesktopApp-Admin\\DesktopApp-Admin.csproj|solutionrelative:desktopapp-admin\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9689E18-C8F3-4D81-81CD-484788DB22EC}|DesktopApp-Admin\\DesktopApp-Admin.csproj|d:\\gui projects\\coffee_bliss_website\\desktopapp-admin\\desktopapp-admin\\ordermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "SignUp.xaml",
               "DocumentMoniker": "D:\\GUI Projects\\Coffee_Bliss_website\\DesktopApp-Admin\\DesktopApp-Admin\\SignUp.xaml",
               "RelativeDocumentMoniker": "DesktopApp-Admin\\SignUp.xaml",
@@ -74,18 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MenuManagement.xaml",
-              "DocumentMoniker": "D:\\GUI Projects\\Coffee_Bliss_website\\DesktopApp-Admin\\DesktopApp-Admin\\MenuManagement.xaml",
-              "RelativeDocumentMoniker": "DesktopApp-Admin\\MenuManagement.xaml",
-              "ToolTip": "D:\\GUI Projects\\Coffee_Bliss_website\\DesktopApp-Admin\\DesktopApp-Admin\\MenuManagement.xaml",
-              "RelativeToolTip": "DesktopApp-Admin\\MenuManagement.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-07T18:31:03.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\GUI Projects\\Coffee_Bliss_website\\DesktopApp-Admin\\DesktopApp-Admin\\MainWindow.xaml",
               "RelativeDocumentMoniker": "DesktopApp-Admin\\MainWindow.xaml",
@@ -96,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CustomerManagement.xaml",
               "DocumentMoniker": "D:\\GUI Projects\\Coffee_Bliss_website\\DesktopApp-Admin\\DesktopApp-Admin\\CustomerManagement.xaml",
               "RelativeDocumentMoniker": "DesktopApp-Admin\\CustomerManagement.xaml",
@@ -107,18 +96,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Login.xaml",
               "DocumentMoniker": "D:\\GUI Projects\\Coffee_Bliss_website\\DesktopApp-Admin\\DesktopApp-Admin\\Login.xaml",
               "RelativeDocumentMoniker": "DesktopApp-Admin\\Login.xaml",
               "ToolTip": "D:\\GUI Projects\\Coffee_Bliss_website\\DesktopApp-Admin\\DesktopApp-Admin\\Login.xaml",
               "RelativeToolTip": "DesktopApp-Admin\\Login.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-03T15:08:34.306Z"
+              "WhenOpened": "2025-03-03T15:08:34.306Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "OrderManagement.xaml",
               "DocumentMoniker": "D:\\GUI Projects\\Coffee_Bliss_website\\DesktopApp-Admin\\DesktopApp-Admin\\OrderManagement.xaml",
               "RelativeDocumentMoniker": "DesktopApp-Admin\\OrderManagement.xaml",
@@ -129,7 +119,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "D:\\GUI Projects\\Coffee_Bliss_website\\DesktopApp-Admin\\DesktopApp-Admin\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "DesktopApp-Admin\\Login.xaml.cs",
+              "ToolTip": "D:\\GUI Projects\\Coffee_Bliss_website\\DesktopApp-Admin\\DesktopApp-Admin\\Login.xaml.cs",
+              "RelativeToolTip": "DesktopApp-Admin\\Login.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T15:09:22.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuManagement.xaml",
+              "DocumentMoniker": "D:\\GUI Projects\\Coffee_Bliss_website\\DesktopApp-Admin\\DesktopApp-Admin\\MenuManagement.xaml",
+              "RelativeDocumentMoniker": "DesktopApp-Admin\\MenuManagement.xaml",
+              "ToolTip": "D:\\GUI Projects\\Coffee_Bliss_website\\DesktopApp-Admin\\DesktopApp-Admin\\MenuManagement.xaml",
+              "RelativeToolTip": "DesktopApp-Admin\\MenuManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-07T18:31:03.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CustomerManagement.xaml.cs",
               "DocumentMoniker": "D:\\GUI Projects\\Coffee_Bliss_website\\DesktopApp-Admin\\DesktopApp-Admin\\CustomerManagement.xaml.cs",
               "RelativeDocumentMoniker": "DesktopApp-Admin\\CustomerManagement.xaml.cs",
@@ -141,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MenuManagement.xaml.cs",
               "DocumentMoniker": "D:\\GUI Projects\\Coffee_Bliss_website\\DesktopApp-Admin\\DesktopApp-Admin\\MenuManagement.xaml.cs",
               "RelativeDocumentMoniker": "DesktopApp-Admin\\MenuManagement.xaml.cs",
@@ -150,18 +164,6 @@
               "ViewState": "AgIAAL0AAAAAAAAAAAAowMsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T14:21:27.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.xaml.cs",
-              "DocumentMoniker": "D:\\GUI Projects\\Coffee_Bliss_website\\DesktopApp-Admin\\DesktopApp-Admin\\Login.xaml.cs",
-              "RelativeDocumentMoniker": "DesktopApp-Admin\\Login.xaml.cs",
-              "ToolTip": "D:\\GUI Projects\\Coffee_Bliss_website\\DesktopApp-Admin\\DesktopApp-Admin\\Login.xaml.cs",
-              "RelativeToolTip": "DesktopApp-Admin\\Login.xaml.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAzwE4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T15:09:22.262Z"
             },
             {
               "$type": "Document",

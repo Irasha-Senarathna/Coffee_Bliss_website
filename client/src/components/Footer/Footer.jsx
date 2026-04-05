@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react';    // Imports React to enable JSX syntax and rendering in this React component.
 import './Footer.css'; 
 import { assets } from '../../assets/assets';
 

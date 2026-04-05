@@ -1,4 +1,4 @@
-import logo from './logo.jpg';
+import logo from './logo.jpg';  // Imports the logo image from the current folder.
 import background_contact from './background-contact.jpg';
 import background_home from './background-home.jpg';
 import background_menu from './background-menu.jpg';
@@ -26,7 +26,7 @@ import instagram_icon from './instagram_icon.png'
 import twitter_icon from './twitter_icon.png';
 import cross_icon from './cross_icon.png';
 
-export const assets = {
+export const assets = {  // Exports an `assets` object that combines all images for easy access across the application.
     logo,
     background_contact,
     background_home,
@@ -48,7 +48,8 @@ export const assets = {
 };
 
 export const menu_list = [
-    {
+    {    
+        // menu_list is an array that stores all menu items with their details like name, image, price, description, and category.
         _id: "1",
         name: "Classic Espresso",
         image: classicEspresso,

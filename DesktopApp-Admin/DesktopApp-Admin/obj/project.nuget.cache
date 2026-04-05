@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JSQNywgu2B8=",
+  "dgSpecHash": "Pyeyox4nTQc=",
   "success": true,
-  "projectFilePath": "D:\\GUI Projects\\Coffee_Bliss_website\\DesktopApp-Admin\\DesktopApp-Admin\\DesktopApp-Admin.csproj",
+  "projectFilePath": "D:\\projects 3rd\\Coffee_Bliss_website\\DesktopApp-Admin\\DesktopApp-Admin\\DesktopApp-Admin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",
