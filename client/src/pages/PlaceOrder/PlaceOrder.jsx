@@ -1,7 +1,7 @@
 import React from 'react'
 import './PlaceOrder.css'
 import { assets } from '../../assets/assets'
-import useCart from "../../hooks/usecart";
+import useCart from "../../hooks/useCart";
 
 const PlaceOrder = () => {
   const {cartItems} =useCart();

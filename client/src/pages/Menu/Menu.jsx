@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Menu.css';
 import { menu_list } from '../../assets/assets';
 import { assets } from '../../assets/assets';
-import useCart from '../../hooks/useCart';
+import useCart from "../../hooks/useCart";
 import Modal from '../../components/Modal/Modal';
 
 const Menu = () => {
