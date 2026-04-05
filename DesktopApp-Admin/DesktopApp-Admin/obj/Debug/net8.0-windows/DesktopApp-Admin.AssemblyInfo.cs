@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DesktopApp-Admin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb0fd63a09c04c210ded2c50aa562dbc7409bfd4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10afd4b695d8e1b8794c173b3924f7a2a80501f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("DesktopApp-Admin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DesktopApp-Admin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
