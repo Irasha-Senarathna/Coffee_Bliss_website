@@ -1,5 +1,6 @@
 // import coffee_icon from './coffee_icon.png';
-import logo from './logo.jpg';
+
+import logo from './Logo.jpg';
 import upload from './upload.jpg';
 import background_contact from './background-contact.jpg';
 import background_home from './background-home.jpg';
