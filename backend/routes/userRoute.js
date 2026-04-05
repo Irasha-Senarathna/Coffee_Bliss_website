@@ -3,7 +3,7 @@ import { getUsers, loginUser, registerUser } from '../controllers/userController
 
 const userRouter = express.Router();
 
-userRouter.get('/get', getUsers);  // Test route to get all users
+userRouter.get('/get', getUsers);
 userRouter.post('/login', loginUser);
 userRouter.post('/register', registerUser);
 
